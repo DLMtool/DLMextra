@@ -9,6 +9,34 @@
 "testMSE"
 
 
+#'  BarredSandBass OM
+#'
+#'  An object of class OM
+#'
+"BarredSandBass"
+
+
+#'  CA_Halibut OM
+#'
+#'  An object of class OM
+#'
+"CA_Halibut"
+
+
+#'  RedSeaUrchin OM
+#'
+#'  An object of class OM
+#'
+"RedSeaUrchin"
+
+
+#'  WartySeaCucumber OM
+#'
+#'  An object of class OM
+#'
+"WartySeaCucumber"
+
+
 #'  San_Francisco_Bay_herring_HerringSFB_OM OM
 #'
 #'  An object of class OM
