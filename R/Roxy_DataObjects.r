@@ -9,6 +9,34 @@
 "testMSE"
 
 
+#'  BarredSandBass OM
+#'
+#'  An object of class OM
+#'
+"BarredSandBass"
+
+
+#'  CA_Halibut OM
+#'
+#'  An object of class OM
+#'
+"CA_Halibut"
+
+
+#'  RedSeaUrchin OM
+#'
+#'  An object of class OM
+#'
+"RedSeaUrchin"
+
+
+#'  WartySeaCucumber OM
+#'
+#'  An object of class OM
+#'
+"WartySeaCucumber"
+
+
 #'  San_Francisco_Bay_herring_HerringSFB_OM OM
 #'
 #'  An object of class OM
@@ -100,13 +128,5 @@
 #'  DFO. Author: DFO.
 #' 
 "Arrowtooth_Flounder_BC_SS"
-
-
-#'  Rougheye_Rockfish_BC_SRA OM
-#'
-#'  An object of class OM (built using StochasticSRA)
-#'  Stock assessment for Canary rockfish (Sebastes pinniger) in British Columbia waters. Stanley R. Starr P. Olsen N. Sustainable Harvest Levels of Anadromous Arctic Charfrom the Hornaday River, Northwest Territories
-#' 
-"Rougheye_Rockfish_BC_SRA"
 
 
