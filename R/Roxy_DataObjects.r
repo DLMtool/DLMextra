@@ -130,3 +130,11 @@
 "Arrowtooth_Flounder_BC_SS"
 
 
+#'  Rougheye_Rockfish_BC_SRA OM
+#'
+#'  An object of class OM (built using StochasticSRA)
+#'  Stock assessment for Canary rockfish (Sebastes pinniger) in British Columbia waters. Stanley R. Starr P. Olsen N. Sustainable Harvest Levels of Anadromous Arctic Charfrom the Hornaday River, Northwest Territories
+#' 
+"Rougheye_Rockfish_BC_SRA"
+
+
