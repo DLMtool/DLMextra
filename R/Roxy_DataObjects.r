@@ -163,3 +163,10 @@
 "Yellowfin_Tuna_IO_IOTC"
 
 
+#'  testMSE OM
+#'
+#'  An object of class OM
+#'
+"testMSE"
+
+
