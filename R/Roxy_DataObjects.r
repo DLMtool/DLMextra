@@ -1,140 +1,473 @@
-# This file is automatically built by DataObjectsforDLMextra.r in DLMDev
+# This file is automatically built by Build_DLMextra.r in DLMDev/DLMtool_Instructions
 # Don't edit by hand!
 # 
 
-#'  testMSE MSE
-#'
-#'  An object of class MSE
-#'
-"testMSE"
-
-
-#'  BarredSandBass OM
+#'  #'  #'  Arrowtooth_Flounder_BC_DFO OM
 #'
 #'  An object of class OM
 #'
-"BarredSandBass"
+"Arrowtooth_Flounder_BC_DFO"
 
 
-#'  CA_Halibut OM
+#'  BSB_CA OM
 #'
 #'  An object of class OM
 #'
-"CA_Halibut"
+"BSB_CA"
 
 
-#'  RedSeaUrchin OM
+#'  Blue_Shark_IOTC OM
 #'
 #'  An object of class OM
 #'
-"RedSeaUrchin"
+"Blue_Shark_IOTC"
 
 
-#'  WartySeaCucumber OM
+#'  East Atlantic Bluefin tuna OM
 #'
 #'  An object of class OM
 #'
-"WartySeaCucumber"
+"East Atlantic Bluefin tuna"
 
 
-#'  San_Francisco_Bay_herring_HerringSFB_OM OM
+#'  Bluefin_Tuna_WAtl_ICCAT OM
 #'
 #'  An object of class OM
 #'
-"San_Francisco_Bay_herring_HerringSFB_OM"
+"Bluefin_Tuna_WAtl_ICCAT"
 
 
-#'  Darnley_Bay_Char_ArcticCharr_OM OM
+#'  HAL_CA OM
 #'
 #'  An object of class OM
 #'
-"Darnley_Bay_Char_ArcticCharr_OM"
+"HAL_CA"
 
 
-#'  Canary_Rockfish_BC_CanaryRockfishBC_OM OM
+#'  Canary_Rockfish_BC_DFO OM
 #'
 #'  An object of class OM
 #'
-"Canary_Rockfish_BC_CanaryRockfishBC_OM"
+"Canary_Rockfish_BC_DFO"
 
 
-#'  AJ_AlmacoJack_OM OM
+#'  Palo_Argentina_INIDEP OM
 #'
 #'  An object of class OM
 #'
-"AJ_AlmacoJack_OM"
+"Palo_Argentina_INIDEP"
 
 
-#'  LS_LaneSnapper_OM OM
+#'  RSU_CA OM
 #'
 #'  An object of class OM
 #'
-"LS_LaneSnapper_OM"
+"RSU_CA"
 
 
-#'  LAJ_LesserAmberjack_OM OM
+#'  Gulf of Mexico Red Snapper OM
 #'
 #'  An object of class OM
 #'
-"LAJ_LesserAmberjack_OM"
+"Gulf of Mexico Red Snapper"
 
 
-#'  RD_RedDrum_OM OM
+#'  Rougheye_Rockfish_BC OM
 #'
 #'  An object of class OM
 #'
-"RD_RedDrum_OM"
+"Rougheye_Rockfish_BC"
 
 
-#'  SG_SnowyGrouper_OM OM
+#'  North Atlantic Swordfish OM
 #'
 #'  An object of class OM
 #'
-"SG_SnowyGrouper_OM"
+"North Atlantic Swordfish"
 
 
-#'  SH_SpeckledHind_OM OM
+#'  WSC_CA OM
 #'
 #'  An object of class OM
 #'
-"SH_SpeckledHind_OM"
+"WSC_CA"
 
 
-#'  WM_Wenchman_OM OM
+#'  Canary_Rockfish_BC_DFO_1 OM
 #'
 #'  An object of class OM
 #'
-"WM_Wenchman_OM"
+"Canary_Rockfish_BC_DFO_1"
 
 
-#'  YM_YellowmouthGrouper_OM OM
+#'  Yellowfin Tuna Indian Ocean OM
 #'
 #'  An object of class OM
 #'
-"YM_YellowmouthGrouper_OM"
+"Yellowfin Tuna Indian Ocean"
 
 
-#'  Swordfish_OM OM
+#'  Arrowtooth_Flounder_BC_DFO OM
 #'
 #'  An object of class OM
-#'  Author: Alex Hanke (DFO)  Assessment: http://iccat.org/Documents/SCRS/Manual/CH2/2_1_9_SWO_ENG.pdf
-#' 
-"Swordfish_OM"
-
-
-#'  Arrowtooth_Flounder_BC_SS OM
 #'
-#'  An object of class OM (from iSCAM using iSCAM2DLM)
-#'  DFO. Author: DFO.
-#' 
-"Arrowtooth_Flounder_BC_SS"
+"Arrowtooth_Flounder_BC_DFO"
 
 
-#'  Rougheye_Rockfish_BC_SRA OM
+#'  BSB_CA OM
 #'
-#'  An object of class OM (built using StochasticSRA)
-#'  Stock assessment for Canary rockfish (Sebastes pinniger) in British Columbia waters. Stanley R. Starr P. Olsen N. Sustainable Harvest Levels of Anadromous Arctic Charfrom the Hornaday River, Northwest Territories
-#' 
-"Rougheye_Rockfish_BC_SRA"
+#'  An object of class OM
+#'
+"BSB_CA"
+
+
+#'  Blue_Shark_IOTC OM
+#'
+#'  An object of class OM
+#'
+"Blue_Shark_IOTC"
+
+
+#'  East Atlantic Bluefin tuna OM
+#'
+#'  An object of class OM
+#'
+"East Atlantic Bluefin tuna"
+
+
+#'  Bluefin_Tuna_WAtl_ICCAT OM
+#'
+#'  An object of class OM
+#'
+"Bluefin_Tuna_WAtl_ICCAT"
+
+
+#'  HAL_CA OM
+#'
+#'  An object of class OM
+#'
+"HAL_CA"
+
+
+#'  Canary_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Canary_Rockfish_BC_DFO"
+
+
+#'  Palo_Argentina_INIDEP OM
+#'
+#'  An object of class OM
+#'
+"Palo_Argentina_INIDEP"
+
+
+#'  RSU_CA OM
+#'
+#'  An object of class OM
+#'
+"RSU_CA"
+
+
+#'  Gulf of Mexico Red Snapper OM
+#'
+#'  An object of class OM
+#'
+"Gulf of Mexico Red Snapper"
+
+
+#'  Rougheye_Rockfish_BC OM
+#'
+#'  An object of class OM
+#'
+"Rougheye_Rockfish_BC"
+
+
+#'  North Atlantic Swordfish OM
+#'
+#'  An object of class OM
+#'
+"North Atlantic Swordfish"
+
+
+#'  WSC_CA OM
+#'
+#'  An object of class OM
+#'
+"WSC_CA"
+
+
+#'  Canary_Rockfish_BC_DFO_1 OM
+#'
+#'  An object of class OM
+#'
+"Canary_Rockfish_BC_DFO_1"
+
+
+#'  Yellowfin Tuna Indian Ocean OM
+#'
+#'  An object of class OM
+#'
+"Yellowfin Tuna Indian Ocean"
+
+
+#'  Arrowtooth_Flounder_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Arrowtooth_Flounder_BC_DFO"
+
+
+#'  Barred_Sand_Bass_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"Barred_Sand_Bass_CA_CDFW"
+
+
+#'  Blue_Shark_IO_IOTC OM
+#'
+#'  An object of class OM
+#'
+"Blue_Shark_IO_IOTC"
+
+
+#'  Bluefin_Tuna_EAtl_ICCAT OM
+#'
+#'  An object of class OM
+#'
+"Bluefin_Tuna_EAtl_ICCAT"
+
+
+#'  Bluefin_Tuna_WAtl_ICCAT OM
+#'
+#'  An object of class OM
+#'
+"Bluefin_Tuna_WAtl_ICCAT"
+
+
+#'  California_Halibut_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"California_Halibut_CA_CDFW"
+
+
+#'  Canary_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Canary_Rockfish_BC_DFO"
+
+
+#'  Palo_Argentina_INIDEP OM
+#'
+#'  An object of class OM
+#'
+"Palo_Argentina_INIDEP"
+
+
+#'  Red_Sea_Urchin_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"Red_Sea_Urchin_CA_CDFW"
+
+
+#'  Red_Snapper_GOM_NOAA OM
+#'
+#'  An object of class OM
+#'
+"Red_Snapper_GOM_NOAA"
+
+
+#'  Rougheye_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Rougheye_Rockfish_BC_DFO"
+
+
+#'  Swordfish_NAtl_DFO OM
+#'
+#'  An object of class OM
+#'
+"Swordfish_NAtl_DFO"
+
+
+#'  Warty_Sea_Cucumber_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"Warty_Sea_Cucumber_CA_CDFW"
+
+
+#'  Yelloweye_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Yelloweye_Rockfish_BC_DFO"
+
+
+#'  Yellowfin_Tuna_IO_IOTC OM
+#'
+#'  An object of class OM
+#'
+"Yellowfin_Tuna_IO_IOTC"
+
+
+#'  Arrowtooth_Flounder_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Arrowtooth_Flounder_BC_DFO"
+
+
+#'  Barred_Sand_Bass_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"Barred_Sand_Bass_CA_CDFW"
+
+
+#'  Blue_Shark_IO_IOTC OM
+#'
+#'  An object of class OM
+#'
+"Blue_Shark_IO_IOTC"
+
+
+#'  Bluefin_Tuna_EAtl_ICCAT OM
+#'
+#'  An object of class OM
+#'
+"Bluefin_Tuna_EAtl_ICCAT"
+
+
+#'  Bluefin_Tuna_WAtl_ICCAT OM
+#'
+#'  An object of class OM
+#'
+"Bluefin_Tuna_WAtl_ICCAT"
+
+
+#'  California_Halibut_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"California_Halibut_CA_CDFW"
+
+
+#'  Canary_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Canary_Rockfish_BC_DFO"
+
+
+#'  Capelin_GSL_DFO OM
+#'
+#'  An object of class OM
+#'
+"Capelin_GSL_DFO"
+
+
+#'  Cod_4X5Y_DFO OM
+#'
+#'  An object of class OM
+#'
+"Cod_4X5Y_DFO"
+
+
+#'  Cod_5ZJM_DFO OM
+#'
+#'  An object of class OM
+#'
+"Cod_5ZJM_DFO"
+
+
+#'  Gatuzo_Argentina_INIDEP OM
+#'
+#'  An object of class OM
+#'
+"Gatuzo_Argentina_INIDEP"
+
+
+#'  Grey_Seal_5ZJM_DFO OM
+#'
+#'  An object of class OM
+#'
+"Grey_Seal_5ZJM_DFO"
+
+
+#'  Haddock_4X5Y_DFO OM
+#'
+#'  An object of class OM
+#'
+"Haddock_4X5Y_DFO"
+
+
+#'  Halibut_Atl_DFO OM
+#'
+#'  An object of class OM
+#'
+"Halibut_Atl_DFO"
+
+
+#'  Palo_Argentina_INIDEP OM
+#'
+#'  An object of class OM
+#'
+"Palo_Argentina_INIDEP"
+
+
+#'  Red_Sea_Urchin_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"Red_Sea_Urchin_CA_CDFW"
+
+
+#'  Red_Snapper_GOM_NOAA OM
+#'
+#'  An object of class OM
+#'
+"Red_Snapper_GOM_NOAA"
+
+
+#'  Rougheye_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Rougheye_Rockfish_BC_DFO"
+
+
+#'  Swordfish_NAtl_DFO OM
+#'
+#'  An object of class OM
+#'
+"Swordfish_NAtl_DFO"
+
+
+#'  Warty_Sea_Cucumber_CA_CDFW OM
+#'
+#'  An object of class OM
+#'
+"Warty_Sea_Cucumber_CA_CDFW"
+
+
+#'  Yelloweye_Rockfish_BC_DFO OM
+#'
+#'  An object of class OM
+#'
+"Yelloweye_Rockfish_BC_DFO"
+
+
+#'  Yellowfin_Tuna_IO_IOTC OM
+#'
+#'  An object of class OM
+#'
+"Yellowfin_Tuna_IO_IOTC"
 
 

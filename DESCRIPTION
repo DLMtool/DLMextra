@@ -1,10 +1,10 @@
 Package: DLMextra
 Type: Package
-Title: Additional Data and functions for DLMtool
+Title: Additional OMs, Data and functions for DLMtool
 Version: 0.1.0
 Author: A. Hordyk & T. Carruthers
 Maintainer: Adrian Hordyk <a.hordyk@oceans.ubc.ca>
-Description: Additional data sets, objects, and TMB functions for DLMtool.
+Description: Additional OMs, data sets, objects, and TMB functions for DLMtool.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
