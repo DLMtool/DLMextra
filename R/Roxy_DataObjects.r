@@ -9,6 +9,13 @@
 "Arrowtooth_Flounder_BC_DFO"
 
 
+#'  Banded_Morwong_Tasmania OM
+#'
+#'  An object of class OM
+#'
+"Banded_Morwong_Tasmania"
+
+
 #'  Barred_Sand_Bass_CA_CDFW OM
 #'
 #'  An object of class OM
@@ -93,11 +100,32 @@
 "Haddock_4X5Y_DFO"
 
 
+#'  Haddock_Faroe_Islands OM
+#'
+#'  An object of class OM
+#'
+"Haddock_Faroe_Islands"
+
+
 #'  Halibut_Atl_DFO OM
 #'
 #'  An object of class OM
 #'
 "Halibut_Atl_DFO"
+
+
+#'  Jonah_Crab_LFA34_DFO OM
+#'
+#'  An object of class OM
+#'
+"Jonah_Crab_LFA34_DFO"
+
+
+#'  Pacific_Hake_USCan OM
+#'
+#'  An object of class OM
+#'
+"Pacific_Hake_USCan"
 
 
 #'  Pacific_Ocean_Perch_QC_BC_DFO OM
@@ -135,11 +163,25 @@
 "Rougheye_Rockfish_BC_DFO"
 
 
+#'  Stones_Sheep_BC OM
+#'
+#'  An object of class OM
+#'
+"Stones_Sheep_BC"
+
+
 #'  Swordfish_NAtl_DFO OM
 #'
 #'  An object of class OM
 #'
 "Swordfish_NAtl_DFO"
+
+
+#'  Vermillion_Snapper_GOM_NOAA OM
+#'
+#'  An object of class OM
+#'
+"Vermillion_Snapper_GOM_NOAA"
 
 
 #'  Warty_Sea_Cucumber_CA_CDFW OM
