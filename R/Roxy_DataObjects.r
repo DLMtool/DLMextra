@@ -1,214 +1,192 @@
 # This file is automatically built by Build_DLMextra.r in DLMDev/DLMtool_Instructions
 # Don't edit by hand!
-# 
+#
 
-#'  Arrowtooth_Flounder_BC_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @name DLMextra-OM
+#' @aliases DLMextra DLMextra-package
+#' @docType data
+#' @title Operating models and MSE output for DLMtool
+#' @description A suite of operating models (class OM) from the DLMtool website (\url{http://www.datalimitedtoolkit.org/fishery_library}) and a sample MSE (\code{testMSE}) output object.
+#' @references \url{http://www.datalimitedtoolkit.org/fishery_library}
+#' @examples
+#' library(DLMextra)
+#' myMSE <- DLMtool::runMSE(Shortspine_Thornyhead_BC_DFO)
+#' plot(Shortspine_Thornyhead_BC_DFO)
+NULL
+
+
+#' @rdname DLMextra-OM
+"Almaco_Jack_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
 "Arrowtooth_Flounder_BC_DFO"
 
 
-#'  Banded_Morwong_Tasmania OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Banded_Morwong_Tasmania"
 
 
-#'  Barred_Sand_Bass_CA_CDFW OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Barred_Sand_Bass_CA_CDFW"
 
 
-#'  Blue_Shark_IO_IOTC OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Blue_Shark_IO_IOTC"
 
 
-#'  Bluefin_Tuna_EAtl_ICCAT OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Bluefin_Tuna_EAtl_ICCAT"
 
 
-#'  Bluefin_Tuna_WAtl_ICCAT OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Bluefin_Tuna_WAtl_ICCAT"
 
 
-#'  California_Halibut_CA_CDFW OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "California_Halibut_CA_CDFW"
 
 
-#'  Canary_Rockfish_BC_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Canary_Rockfish_BC_DFO"
 
 
-#'  Capelin_GSL_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Capelin_GSL_DFO"
 
 
-#'  Cod_4X5Y_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Cod_4X5Y_DFO"
 
 
-#'  Cod_5ZJM_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Cod_5ZJM_DFO"
 
 
-#'  Gatuzo_Argentina_INIDEP OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Gatuzo_Argentina_INIDEP"
 
 
-#'  Grey_Seal_5ZJM_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Grey_Seal_5ZJM_DFO"
 
 
-#'  Haddock_4X5Y_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Haddock_4X5Y_DFO"
 
 
-#'  Haddock_Faroe_Islands OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Haddock_Faroe_Islands"
 
 
-#'  Halibut_Atl_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Halibut_Atl_DFO"
 
 
-#'  Jonah_Crab_LFA34_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
+"Hogfish_PR_NOAA"
+
+
+#' @rdname DLMextra-OM
 "Jonah_Crab_LFA34_DFO"
 
 
-#'  Pacific_Hake_USCan OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
+"Lane_Snapper_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Lesser_Amberjack_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
 "Pacific_Hake_USCan"
 
 
-#'  Pacific_Ocean_Perch_QC_BC_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Pacific_Ocean_Perch_QC_BC_DFO"
 
 
-#'  Palo_Argentina_INIDEP OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Palo_Argentina_INIDEP"
 
 
-#'  Red_Sea_Urchin_CA_CDFW OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
+"Queen_Triggerfish_STT_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Red_Drum_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
 "Red_Sea_Urchin_CA_CDFW"
 
 
-#'  Red_Snapper_GOM_NOAA OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Red_Snapper_GOM_NOAA"
 
 
-#'  Rougheye_Rockfish_BC_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
+"Redbanded_Rockfish_BC_DFO"
+
+
+#' @rdname DLMextra-OM
 "Rougheye_Rockfish_BC_DFO"
 
 
-#'  Stones_Sheep_BC OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
+"Shortspine_Thornyhead_BC_DFO"
+
+
+#' @rdname DLMextra-OM
+"Snowy_Grouper_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Speckled_Hind_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Spiny_Lobster_STX_NOAA"
+
+
+#' @rdname DLMextra-OM
 "Stones_Sheep_BC"
 
 
-#'  Swordfish_NAtl_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
+"Stoplight_Parrotfish_STX_NOAA"
+
+
+#' @rdname DLMextra-OM
 "Swordfish_NAtl_DFO"
 
 
-#'  Vermillion_Snapper_GOM_NOAA OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Vermillion_Snapper_GOM_NOAA"
 
 
-#'  Warty_Sea_Cucumber_CA_CDFW OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Warty_Sea_Cucumber_CA_CDFW"
 
 
-#'  Yelloweye_Rockfish_BC_DFO OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Yelloweye_Rockfish_BC_DFO"
 
 
-#'  Yellowfin_Tuna_IO_IOTC OM
-#'
-#'  An object of class OM
-#'
+#' @rdname DLMextra-OM
 "Yellowfin_Tuna_IO_IOTC"
 
 
-#'  testMSE OM
-#'
-#'  An object of class OM
-#'
-"testMSE"
+#' @rdname DLMextra-OM
+"Yellowmouth_Grouper_GOM_NOAA"
 
+
+#' @rdname DLMextra-OM
+"Yellowtail_Snapper_PR_NOAA"
+
+
+#' @rdname DLMextra-OM
+"testMSE"
 
