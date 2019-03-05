@@ -1,12 +1,12 @@
 # This file is automatically built by Build_DLMextra.r in DLMDev/DLMtool_Instructions
 # Don't edit by hand!
-#
+# 
 
 #' @name DLMextra-OM
 #' @aliases DLMextra DLMextra-package
 #' @docType data
 #' @title Operating models and MSE output for DLMtool
-#' @description A suite of operating models (class OM) from the DLMtool website (\url{http://www.datalimitedtoolkit.org/fishery_library}) and a sample MSE (\code{testMSE}) output object.
+#' @description A suite of operating models (class OM) from the DLMtool website (\url{http://www.datalimitedtoolkit.org/fishery_library}) and a sample MSE (\code{testMSE})output object.
 #' @references \url{http://www.datalimitedtoolkit.org/fishery_library}
 #' @examples
 #' library(DLMextra)
@@ -189,4 +189,5 @@ NULL
 
 #' @rdname DLMextra-OM
 "testMSE"
+
 
