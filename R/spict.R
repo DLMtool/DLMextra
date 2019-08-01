@@ -177,7 +177,6 @@ spict <- SPiCT <- function(x = 1, Data, start = NULL, fix_dep = TRUE, fix_n = TR
 
     Cpred <- spict::get.par("logCpred", res, exp = TRUE)[1:ny, 2] # NULL if errored
     Assessment@Catch <- structure(Cpred, names = Year)
-    Assessment@SD <- SD
 
     Assessment@SE_FMSY <- SD$sd[names(SD$value) == "Fmsy"]
     Assessment@SE_MSY <- SD$sd[names(SD$value) == "MSY"]
@@ -187,6 +186,7 @@ spict <- SPiCT <- function(x = 1, Data, start = NULL, fix_dep = TRUE, fix_n = TR
     Assessment@SE_B_BMSY_final <- Assessment@SE_VB_VBMSY_final <-
       delta_log(SD$value[names(SD$value) == "logBBmsy"][ny*n_seas+1], SD$sd[names(SD$value) == "logBBmsy"][ny*n_seas+1])
   }
+  if(is.null(res$sderr)) Assessment@SD <- SD
 
   return(Assessment)
 }
