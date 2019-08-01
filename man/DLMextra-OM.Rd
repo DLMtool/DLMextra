@@ -141,7 +141,7 @@ Yellowtail_Snapper_PR_NOAA
 testMSE
 }
 \description{
-A suite of operating models (class OM) from the DLMtool website (\url{http://www.datalimitedtoolkit.org/fishery_library}) and a sample MSE (\code{testMSE}) output object.
+A suite of operating models (class OM) from the DLMtool website (\url{http://www.datalimitedtoolkit.org/fishery_library}) and a sample MSE (\code{testMSE})output object.
 }
 \examples{
 library(DLMextra)
