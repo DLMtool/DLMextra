@@ -16,6 +16,10 @@ NULL
 
 
 #' @rdname DLMextra-OM
+"Albacore_IOTC"
+
+
+#' @rdname DLMextra-OM
 "Almaco_Jack_GOM_NOAA"
 
 
@@ -40,7 +44,15 @@ NULL
 
 
 #' @rdname DLMextra-OM
+"Bigeye_ICCAT"
+
+
+#' @rdname DLMextra-OM
 "Blue_Shark_IO_IOTC"
+
+
+#' @rdname DLMextra-OM
+"Blue_Shark2_IO_IOTC"
 
 
 #' @rdname DLMextra-OM
@@ -148,6 +160,10 @@ NULL
 
 
 #' @rdname DLMextra-OM
+"Skipjack_IOTC"
+
+
+#' @rdname DLMextra-OM
 "Snowy_Grouper_GOM_NOAA"
 
 
@@ -165,6 +181,10 @@ NULL
 
 #' @rdname DLMextra-OM
 "Stoplight_Parrotfish_STX_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Swordfish_ICCAT"
 
 
 #' @rdname DLMextra-OM
@@ -193,6 +213,10 @@ NULL
 
 #' @rdname DLMextra-OM
 "Yellowfin_Tuna_IO_IOTC"
+
+
+#' @rdname DLMextra-OM
+"Yellowfin_Tuna2_IOTC"
 
 
 #' @rdname DLMextra-OM

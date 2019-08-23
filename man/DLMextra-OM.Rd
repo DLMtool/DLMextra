@@ -5,13 +5,16 @@
 \alias{DLMextra-OM}
 \alias{DLMextra}
 \alias{DLMextra-package}
+\alias{Albacore_IOTC}
 \alias{Almaco_Jack_GOM_NOAA}
 \alias{Arrowtooth_Flounder_BC_DFO}
 \alias{Atlantic_Herring_4TFallSpawn_DFO}
 \alias{Atlantic_Herring_4TSpringSpawn_DFO}
 \alias{Banded_Morwong_Tasmania}
 \alias{Barred_Sand_Bass_CA_CDFW}
+\alias{Bigeye_ICCAT}
 \alias{Blue_Shark_IO_IOTC}
+\alias{Blue_Shark2_IO_IOTC}
 \alias{Bluefin_Tuna_EAtl_ICCAT}
 \alias{Bluefin_Tuna_WAtl_ICCAT}
 \alias{California_Halibut_CA_CDFW}
@@ -38,11 +41,13 @@
 \alias{Redbanded_Rockfish_BC_DFO}
 \alias{Rougheye_Rockfish_BC_DFO}
 \alias{Shortspine_Thornyhead_BC_DFO}
+\alias{Skipjack_IOTC}
 \alias{Snowy_Grouper_GOM_NOAA}
 \alias{Speckled_Hind_GOM_NOAA}
 \alias{Spiny_Lobster_STX_NOAA}
 \alias{Stones_Sheep_BC}
 \alias{Stoplight_Parrotfish_STX_NOAA}
+\alias{Swordfish_ICCAT}
 \alias{Swordfish_NAtl_DFO}
 \alias{Tiger_flathead_SEAus_AFMA}
 \alias{Toothfish_HeardIsland_CCAMLR}
@@ -50,12 +55,15 @@
 \alias{Warty_Sea_Cucumber_CA_CDFW}
 \alias{Yelloweye_Rockfish_BC_DFO}
 \alias{Yellowfin_Tuna_IO_IOTC}
+\alias{Yellowfin_Tuna2_IOTC}
 \alias{Yellowmouth_Grouper_GOM_NOAA}
 \alias{Yellowtail_Snapper_PR_NOAA}
 \alias{testMSE}
 \title{Operating models and MSE output for DLMtool}
 \format{An object of class \code{OM} of length 1.}
 \usage{
+Albacore_IOTC
+
 Almaco_Jack_GOM_NOAA
 
 Arrowtooth_Flounder_BC_DFO
@@ -68,7 +76,11 @@ Banded_Morwong_Tasmania
 
 Barred_Sand_Bass_CA_CDFW
 
+Bigeye_ICCAT
+
 Blue_Shark_IO_IOTC
+
+Blue_Shark2_IO_IOTC
 
 Bluefin_Tuna_EAtl_ICCAT
 
@@ -122,6 +134,8 @@ Rougheye_Rockfish_BC_DFO
 
 Shortspine_Thornyhead_BC_DFO
 
+Skipjack_IOTC
+
 Snowy_Grouper_GOM_NOAA
 
 Speckled_Hind_GOM_NOAA
@@ -131,6 +145,8 @@ Spiny_Lobster_STX_NOAA
 Stones_Sheep_BC
 
 Stoplight_Parrotfish_STX_NOAA
+
+Swordfish_ICCAT
 
 Swordfish_NAtl_DFO
 
@@ -145,6 +161,8 @@ Warty_Sea_Cucumber_CA_CDFW
 Yelloweye_Rockfish_BC_DFO
 
 Yellowfin_Tuna_IO_IOTC
+
+Yellowfin_Tuna2_IOTC
 
 Yellowmouth_Grouper_GOM_NOAA
 
