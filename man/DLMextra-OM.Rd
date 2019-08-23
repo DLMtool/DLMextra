@@ -7,6 +7,8 @@
 \alias{DLMextra-package}
 \alias{Almaco_Jack_GOM_NOAA}
 \alias{Arrowtooth_Flounder_BC_DFO}
+\alias{Atlantic_Herring_4TFallSpawn_DFO}
+\alias{Atlantic_Herring_4TSpringSpawn_DFO}
 \alias{Banded_Morwong_Tasmania}
 \alias{Barred_Sand_Bass_CA_CDFW}
 \alias{Blue_Shark_IO_IOTC}
@@ -15,6 +17,7 @@
 \alias{California_Halibut_CA_CDFW}
 \alias{Canary_Rockfish_BC_DFO}
 \alias{Capelin_GSL_DFO}
+\alias{Cod_4T4Vn_DFO}
 \alias{Cod_4X5Y_DFO}
 \alias{Cod_5ZJM_DFO}
 \alias{Gatuzo_Argentina_INIDEP}
@@ -32,7 +35,6 @@
 \alias{Queen_Triggerfish_STT_NOAA}
 \alias{Red_Drum_GOM_NOAA}
 \alias{Red_Sea_Urchin_CA_CDFW}
-\alias{Red_Snapper_GOM_NOAA}
 \alias{Redbanded_Rockfish_BC_DFO}
 \alias{Rougheye_Rockfish_BC_DFO}
 \alias{Shortspine_Thornyhead_BC_DFO}
@@ -42,6 +44,8 @@
 \alias{Stones_Sheep_BC}
 \alias{Stoplight_Parrotfish_STX_NOAA}
 \alias{Swordfish_NAtl_DFO}
+\alias{Tiger_flathead_SEAus_AFMA}
+\alias{Toothfish_HeardIsland_CCAMLR}
 \alias{Vermillion_Snapper_GOM_NOAA}
 \alias{Warty_Sea_Cucumber_CA_CDFW}
 \alias{Yelloweye_Rockfish_BC_DFO}
@@ -55,6 +59,10 @@
 Almaco_Jack_GOM_NOAA
 
 Arrowtooth_Flounder_BC_DFO
+
+Atlantic_Herring_4TFallSpawn_DFO
+
+Atlantic_Herring_4TSpringSpawn_DFO
 
 Banded_Morwong_Tasmania
 
@@ -71,6 +79,8 @@ California_Halibut_CA_CDFW
 Canary_Rockfish_BC_DFO
 
 Capelin_GSL_DFO
+
+Cod_4T4Vn_DFO
 
 Cod_4X5Y_DFO
 
@@ -106,8 +116,6 @@ Red_Drum_GOM_NOAA
 
 Red_Sea_Urchin_CA_CDFW
 
-Red_Snapper_GOM_NOAA
-
 Redbanded_Rockfish_BC_DFO
 
 Rougheye_Rockfish_BC_DFO
@@ -125,6 +133,10 @@ Stones_Sheep_BC
 Stoplight_Parrotfish_STX_NOAA
 
 Swordfish_NAtl_DFO
+
+Tiger_flathead_SEAus_AFMA
+
+Toothfish_HeardIsland_CCAMLR
 
 Vermillion_Snapper_GOM_NOAA
 

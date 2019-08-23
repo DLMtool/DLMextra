@@ -24,6 +24,14 @@ NULL
 
 
 #' @rdname DLMextra-OM
+"Atlantic_Herring_4TFallSpawn_DFO"
+
+
+#' @rdname DLMextra-OM
+"Atlantic_Herring_4TSpringSpawn_DFO"
+
+
+#' @rdname DLMextra-OM
 "Banded_Morwong_Tasmania"
 
 
@@ -53,6 +61,10 @@ NULL
 
 #' @rdname DLMextra-OM
 "Capelin_GSL_DFO"
+
+
+#' @rdname DLMextra-OM
+"Cod_4T4Vn_DFO"
 
 
 #' @rdname DLMextra-OM
@@ -124,10 +136,6 @@ NULL
 
 
 #' @rdname DLMextra-OM
-"Red_Snapper_GOM_NOAA"
-
-
-#' @rdname DLMextra-OM
 "Redbanded_Rockfish_BC_DFO"
 
 
@@ -161,6 +169,14 @@ NULL
 
 #' @rdname DLMextra-OM
 "Swordfish_NAtl_DFO"
+
+
+#' @rdname DLMextra-OM
+"Tiger_flathead_SEAus_AFMA"
+
+
+#' @rdname DLMextra-OM
+"Toothfish_HeardIsland_CCAMLR"
 
 
 #' @rdname DLMextra-OM
