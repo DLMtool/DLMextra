@@ -16,7 +16,7 @@ NULL
 
 
 #' @rdname DLMextra-OM
-"Albacore_IOTC"
+"Albacore_IO_IOTC"
 
 
 #' @rdname DLMextra-OM
@@ -160,7 +160,7 @@ NULL
 
 
 #' @rdname DLMextra-OM
-"Skipjack_IOTC"
+"Skipjack_IO_IOTC"
 
 
 #' @rdname DLMextra-OM
@@ -185,6 +185,10 @@ NULL
 
 #' @rdname DLMextra-OM
 "Swordfish_ICCAT"
+
+
+#' @rdname DLMextra-OM
+"Swordfish_IO_IOTC"
 
 
 #' @rdname DLMextra-OM

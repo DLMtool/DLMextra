@@ -11,6 +11,6 @@ Remotes: github::mawp/spict/spict
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
 URL: http://www.datalimitedtoolkit.org
 BugReports: https://github.com/DLMtool/DLMextra/issues

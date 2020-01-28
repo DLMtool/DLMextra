@@ -5,7 +5,7 @@
 \alias{DLMextra-OM}
 \alias{DLMextra}
 \alias{DLMextra-package}
-\alias{Albacore_IOTC}
+\alias{Albacore_IO_IOTC}
 \alias{Almaco_Jack_GOM_NOAA}
 \alias{Arrowtooth_Flounder_BC_DFO}
 \alias{Atlantic_Herring_4TFallSpawn_DFO}
@@ -41,13 +41,14 @@
 \alias{Redbanded_Rockfish_BC_DFO}
 \alias{Rougheye_Rockfish_BC_DFO}
 \alias{Shortspine_Thornyhead_BC_DFO}
-\alias{Skipjack_IOTC}
+\alias{Skipjack_IO_IOTC}
 \alias{Snowy_Grouper_GOM_NOAA}
 \alias{Speckled_Hind_GOM_NOAA}
 \alias{Spiny_Lobster_STX_NOAA}
 \alias{Stones_Sheep_BC}
 \alias{Stoplight_Parrotfish_STX_NOAA}
 \alias{Swordfish_ICCAT}
+\alias{Swordfish_IO_IOTC}
 \alias{Swordfish_NAtl_DFO}
 \alias{Tiger_flathead_SEAus_AFMA}
 \alias{Toothfish_HeardIsland_CCAMLR}
@@ -62,7 +63,7 @@
 \title{Operating models and MSE output for DLMtool}
 \format{An object of class \code{OM} of length 1.}
 \usage{
-Albacore_IOTC
+Albacore_IO_IOTC
 
 Almaco_Jack_GOM_NOAA
 
@@ -134,7 +135,7 @@ Rougheye_Rockfish_BC_DFO
 
 Shortspine_Thornyhead_BC_DFO
 
-Skipjack_IOTC
+Skipjack_IO_IOTC
 
 Snowy_Grouper_GOM_NOAA
 
@@ -147,6 +148,8 @@ Stones_Sheep_BC
 Stoplight_Parrotfish_STX_NOAA
 
 Swordfish_ICCAT
+
+Swordfish_IO_IOTC
 
 Swordfish_NAtl_DFO
 
