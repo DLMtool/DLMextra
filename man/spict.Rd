@@ -5,9 +5,19 @@
 \alias{SPiCT}
 \title{Stochastic production in continuous time (spict)}
 \usage{
-spict(x = 1, Data, start = NULL, fix_dep = TRUE, fix_n = TRUE,
-  fix_sigma = FALSE, fix_omega = FALSE, fix_alpha = TRUE,
-  fix_beta = TRUE, n_seas = 4L, ...)
+spict(
+  x = 1,
+  Data,
+  start = NULL,
+  fix_dep = TRUE,
+  fix_n = TRUE,
+  fix_sigma = FALSE,
+  fix_omega = FALSE,
+  fix_alpha = TRUE,
+  fix_beta = TRUE,
+  n_seas = 4L,
+  ...
+)
 }
 \arguments{
 \item{x}{An index for the objects in \code{Data} when running in \link[DLMtool]{runMSE}.

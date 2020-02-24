@@ -1,6 +1,6 @@
 # This file is automatically built by Build_DLMextra.r in DLMDev/DLMtool_Instructions
 # Don't edit by hand!
-# 
+#
 
 #' @name DLMextra-OM
 #' @aliases DLMextra DLMextra-package
@@ -186,4 +186,51 @@ NULL
 #' @rdname DLMextra-OM
 "Swordfish_ICCAT"
 
+
+#' @rdname DLMextra-OM
+"Swordfish_IO_IOTC"
+
+
+#' @rdname DLMextra-OM
+"Swordfish_NAtl_DFO"
+
+
+#' @rdname DLMextra-OM
+"Tiger_flathead_SEAus_AFMA"
+
+
+#' @rdname DLMextra-OM
+"Toothfish_HeardIsland_CCAMLR"
+
+
+#' @rdname DLMextra-OM
+"Vermillion_Snapper_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Warty_Sea_Cucumber_CA_CDFW"
+
+
+#' @rdname DLMextra-OM
+"Yelloweye_Rockfish_BC_DFO"
+
+
+#' @rdname DLMextra-OM
+"Yellowfin_Tuna_IO_IOTC"
+
+
+#' @rdname DLMextra-OM
+"Yellowfin_Tuna2_IOTC"
+
+
+#' @rdname DLMextra-OM
+"Yellowmouth_Grouper_GOM_NOAA"
+
+
+#' @rdname DLMextra-OM
+"Yellowtail_Snapper_PR_NOAA"
+
+
+#' @rdname DLMextra-OM
+"testMSE"
 
