@@ -1,7 +1,7 @@
 Package: DLMextra
 Type: Package
 Title: Additional OMs, Data, and Assessment functions for DLMtool and MSEtool
-Version: 0.1.1
+Version: 0.1.2
 Author: A. Hordyk, T. Carruthers, and Q. Huynh
 Maintainer: Adrian Hordyk <a.hordyk@oceans.ubc.ca>
 Description: Additional OMs, data sets, objects, and TMB functions for DLMtool and MSEtool.
