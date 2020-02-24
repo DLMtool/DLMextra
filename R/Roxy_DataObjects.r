@@ -1,6 +1,6 @@
 # This file is automatically built by Build_DLMextra.r in DLMDev/DLMtool_Instructions
 # Don't edit by hand!
-#
+# 
 
 #' @name DLMextra-OM
 #' @aliases DLMextra DLMextra-package
@@ -233,4 +233,5 @@ NULL
 
 #' @rdname DLMextra-OM
 "testMSE"
+
 
