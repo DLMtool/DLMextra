@@ -69,6 +69,7 @@
 #' LIME_MP <- make_MP(DLMextra::LIME, HCR40_10, Fproxy = "F30", add_catch = TRUE)
 #' }
 #' @import MSEtool
+#' @import dplyr
 #' @importClassesFrom MSEtool Assessment
 #' @importMethodsFrom MSEtool summary plot
 #' @seealso \link[MSEtool]{plot.Assessment} \link[MSEtool]{summary.Assessment} \link[MSEtool]{make_MP}

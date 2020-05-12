@@ -5,7 +5,7 @@ Version: 0.1.3
 Author: A. Hordyk, T. Carruthers, and Q. Huynh
 Maintainer: Adrian Hordyk <a.hordyk@oceans.ubc.ca>
 Description: Additional OMs, data sets, objects, and TMB functions for DLMtool and MSEtool.
-Depends: R (>= 3.5.0), DLMtool (>= 5.2.0)
+Depends: R (>= 3.5.0), DLMtool (>= 5.2.0), dplyr
 Suggests: spict, LIME, MSEtool (>= 1.1.0), devtools, remotes
 Remotes: github::DTUAqua/spict/spict, github::merrillrudd/LIME
 License: GPL-2
