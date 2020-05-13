@@ -61,7 +61,117 @@
 \alias{Yellowtail_Snapper_PR_NOAA}
 \alias{testMSE}
 \title{Operating models and MSE output for DLMtool}
-\format{An object of class \code{OM} of length 1.}
+\format{
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{OM} of length 1.
+
+An object of class \code{MSE} of length 1.
+}
 \usage{
 Albacore_IO_IOTC
 

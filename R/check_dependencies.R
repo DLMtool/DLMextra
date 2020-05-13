@@ -3,8 +3,9 @@ check_dependencies <- function(func_name, pkg) {
   need_pkg <- !requireNamespace(pkg, quietly = TRUE)
 
   if(need_pkg) {
-    if(pkg == "spict") pkg_repo <- "mawp/spict/spict"
+    if(pkg == "spict") pkg_repo <- "DTUAqua/spict/spict"
     if(pkg == "stockassessment") pkg_repo <- "fishfollower/SAM/stockassessment"
+    if(pkg == "LIME") pkg_repo <- "merrillrudd/LIME"
   }
 
   if(need_MSEtool || need_pkg) {

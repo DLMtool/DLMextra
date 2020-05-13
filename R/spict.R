@@ -26,6 +26,7 @@
 #' @param fix_beta Logical, whether the ratio of catch and F standard deviations is fixed. If \code{TRUE},
 #' tau is fixed to value provided in \code{start} (if provided), otherwise, equal to 1.
 #' @param n_seas Integer, the number of sub-annual time steps in the model, i.e. the inverse of the Euler time step. Defaults to 4 (seasonal time steps).
+#' @param inp_args A named of list of additional variables for the \code{inp} list to pass to \link[spict]{check.inp}.
 #' @param ... Additional arguments (not currently used).
 #' @details
 #' To provide starting values, a named list can be provided for \code{MSY}, \code{K}, \code{n}, \code{omega}, and
@@ -33,7 +34,7 @@
 #' @return An object of \code{\linkS4class{Assessment}} containing assessment output.
 #' @note
 #' This is a wrapper function intended for a DLMtool \linkS4class{Data} object. The \code{spict} package can be
-#' downloaded from Github with \code{devtools::install_github("mawp/spict/spict")}.
+#' downloaded from Github with \code{devtools::install_github("DTUAqua/spict/spict")}.
 #'
 #' The full spict model also accommodates time-varying reference points and seasonal data among other
 #' things, but these features are currently not used here. Additional diagnostics and plotting functions are also available in the spict package.
@@ -46,7 +47,9 @@
 #' \item \code{spict}: Cat, Ind
 #' }
 #' @section Optional Data:
-#' \code{spict}: CV_Cat, CV_Ind
+#' \itemize{
+#' \item \code{spict}: CV_Cat, CV_Ind
+#' }
 #' @examples
 #' \donttest{
 #' library(MSEtool)
@@ -56,7 +59,7 @@
 #' plot(res)
 #' summary(res)
 #'
-#' ## Use additional functions spict functions
+#' ## Use additional spict-package functions
 #' spict_output <- res@@info
 #' library(spict)
 #' summary(spict_output)
@@ -70,7 +73,7 @@
 #' @seealso \link[MSEtool]{SP_production} \link[MSEtool]{plot.Assessment} \link[MSEtool]{summary.Assessment} \link[MSEtool]{make_MP}
 #' @export spict SPiCT
 spict <- SPiCT <- function(x = 1, Data, start = NULL, fix_dep = TRUE, fix_n = TRUE, fix_sigma = FALSE,
-                           fix_omega = FALSE, fix_alpha = TRUE, fix_beta = TRUE, n_seas = 4L, ...) {
+                           fix_omega = FALSE, fix_alpha = TRUE, fix_beta = TRUE, n_seas = 4L, inp_args = list(), ...) {
   check_dependencies("spict", "spict")
   dependencies = "Data@Cat, Data@Ind"
   dots <- list(...)
@@ -88,8 +91,8 @@ spict <- SPiCT <- function(x = 1, Data, start = NULL, fix_dep = TRUE, fix_n = TR
   I_hist[I_hist < 0] <- NA
   ny <- length(C_hist)
 
-  inp <- spict::check.inp(list(obsC = C_hist, timeC = Year, obsI = I_hist[!is.na(I_hist)], timeI = Year[!is.na(I_hist)],
-                               dteuler = 1/n_seas))
+  inp <- list(obsC = C_hist, timeC = Year, obsI = I_hist[!is.na(I_hist)], timeI = Year[!is.na(I_hist)],
+              dteuler = 1/n_seas) %>% c(inp_args) %>% spict::check.inp()
   inp$getReportCovariance <- inp$getJointPrecision <- FALSE
 
   if(!is.null(start$MSY) && is.numeric(start$MSY)) inp$ini$logm <- log(start$MSY[1])

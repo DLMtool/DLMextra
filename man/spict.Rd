@@ -16,6 +16,7 @@ spict(
   fix_alpha = TRUE,
   fix_beta = TRUE,
   n_seas = 4L,
+  inp_args = list(),
   ...
 )
 }
@@ -49,6 +50,8 @@ tau is fixed to value provided in \code{start} (if provided), otherwise, equal t
 
 \item{n_seas}{Integer, the number of sub-annual time steps in the model, i.e. the inverse of the Euler time step. Defaults to 4 (seasonal time steps).}
 
+\item{inp_args}{A named of list of additional variables for the \code{inp} list to pass to \link[spict]{check.inp}.}
+
 \item{...}{Additional arguments (not currently used).}
 }
 \value{
@@ -67,7 +70,7 @@ To provide starting values, a named list can be provided for \code{MSY}, \code{K
 }
 \note{
 This is a wrapper function intended for a DLMtool \linkS4class{Data} object. The \code{spict} package can be
-downloaded from Github with \code{devtools::install_github("mawp/spict/spict")}.
+downloaded from Github with \code{devtools::install_github("DTUAqua/spict/spict")}.
 
 The full spict model also accommodates time-varying reference points and seasonal data among other
 things, but these features are currently not used here. Additional diagnostics and plotting functions are also available in the spict package.
@@ -81,7 +84,9 @@ things, but these features are currently not used here. Additional diagnostics a
 
 \section{Optional Data}{
 
-\code{spict}: CV_Cat, CV_Ind
+\itemize{
+\item \code{spict}: CV_Cat, CV_Ind
+}
 }
 
 \examples{
@@ -93,7 +98,7 @@ res <- spict(Data = swordfish)
 plot(res)
 summary(res)
 
-## Use additional functions spict functions
+## Use additional spict-package functions
 spict_output <- res@info
 library(spict)
 summary(spict_output)
